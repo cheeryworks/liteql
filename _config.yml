@@ -70,11 +70,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-  - scope:
-      path: "index.html"
-      type: "pages"
-    values:
-      layout: "default"
 
 # -----------
 # CloudCannon
