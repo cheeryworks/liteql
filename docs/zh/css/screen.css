@@ -218,6 +218,8 @@ nav a:hover { color: #fff; }
 
 nav a.active { color: #fff; }
 
+.external-link-icon { width: 12px; margin-left: 5px; }
+
 footer { padding: 30px 0 30px 0; position: relative; background: #222; color: #fff; }
 
 footer, footer a { color: #999; }
