@@ -1,0 +1,34 @@
+global:
+  languages:
+    chinese: zh
+    english: en
+  site:
+    title: LiteQL
+  links:
+    portfolio: Portfolio
+    blog: Blog
+    about: About
+    contact: Contact Us
+  company:
+    name: Beijing CheeryWorks Technology Co., Ltd.
+    short_name: CheeryWorks
+pages:
+  home:
+    title:
+    vision: Help individuals or teams to easily build amazing apps.
+    portfolios:
+      title: Some of our work
+      all: View Full Portfolio
+  portfolio:
+    title: Portfolio
+    heading: Our Work
+    subtitle: See our proud customers with exemplary results.
+  about:
+    title: About
+    heading: Our team
+    subtitle: Meet our efficient and professional team.
+  contact:
+    title: Contact Us
+    heading: Get in touch today
+    subtitle: We'd love to help you.
+    email: Email

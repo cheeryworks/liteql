@@ -1,0 +1,26 @@
+---
+title: pages.portfolio.title
+heading: pages.portfolio.heading
+subtitle: pages.portfolio.subtitle
+layout: main_page
+---
+
+<section class="diagonal">
+	<div class="container">
+		<ul class="image-grid">
+			{% for portfolio in site.portfolios %}
+				<li>
+					<a href="{{ site.baseurl }}{{ portfolio.url }}">
+						<img src="{% include relative-src.html src=portfolio.image_path %}" alt="{{ person.name }}">
+						<div class="details">
+							<div class="name">{{ portfolio.name }}</div>
+							<div class="position">{{ portfolio.subtitle }}</div>
+						</div>
+					</a>
+				</li>
+			{% endfor %}
+			<li class="filler"></li>
+			<li class="filler"></li>
+		</ul>
+	</div>
+</section>

@@ -1,0 +1,26 @@
+<nav>
+	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
+	<ul>
+		{% for link in site.data.navigation.links %}
+			{% assign class = "" %}
+			{% if link.highlight %}
+				{% assign class = class | append: " highlight" %}
+			{% endif %}
+
+			{% if link.link == page.url %}
+				{% assign class = class | append: " active" %}
+			{% endif %}
+			{% assign key_of_link = "global.links." | append: link.key %}
+			<li><a href="{{ site.baseurl }}{{ link.link }}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{% t {{key_of_link}} %}</a></li>
+		{% endfor %}
+		<li class="language">
+    {% if site.lang == "en" %}
+      {% capture link1 %}{{ site.baseurl_root }}/zh{{ page.url}}{% endcapture %}
+      <a href="{{ link1 }}" >{% t global.languages.chinese %}</a>
+    {% elsif site.lang == "zh" %}
+      {% capture link2 %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+      <a href="{{ link2 }}" >{% t global.languages.english %}</a>
+    {% endif %}
+		</li>
+	</ul>
+</nav>

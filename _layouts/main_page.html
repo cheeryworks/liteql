@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<section class="hero diagonal">
+	<div class="container" {% if page.full_width %}style="max-width: 100%"{% endif %}>
+		{% capture page_heading %}{% t page.heading %}{% endcapture %}
+		{% capture page_title %}{% t page.title %}{% endcapture %}
+		{% if page_heading %}
+			<h2>{{ page_heading }}</h2>
+		{% elsif page.heading %}
+			<h2>{{ page.heading }}</h2>
+		{% elsif page_title %}
+			<h2>{{ page_title }}</h2>
+		{% elsif page.title %}
+			<h2>{% t page.title %}</h2>
+		{% endif %}
+		{% if page.subtitle %}
+			<p class="subtext">{% t page.subtitle %}</p>
+		{% endif %}
+	</div>
+</section>
+
+{{ content }}

@@ -1,3 +1,1 @@
-# LiteQL
-
-Lite data modeling and processing library.
+# Soupe UI Components

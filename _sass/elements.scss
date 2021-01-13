@@ -1,0 +1,72 @@
+html {
+	background: $html-background-color;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+a {
+	color: $brand-color;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-size: 2.3rem;
+	font-weight: normal;
+	margin: 0;
+}
+
+h2 {
+	font-size: 2.2rem;
+	font-weight: normal;
+	margin: 20px 0px 10px 0px;
+}
+
+h3 {
+	font-size: 1.8rem;
+	font-weight: normal;
+	margin: 20px 0px 10px 0px;
+}
+
+h4 {
+	font-size: 1.5rem;
+	font-weight: normal;
+	margin: 20px 0px 10px 0px;
+}
+
+h5 {
+	font-size: 1rem;
+	font-weight: normal;
+	margin: 20px 0px 10px 0px;
+}
+
+p, address, ul, ol, pre {
+	margin: 0 0 20px 0;
+}
+
+p, address, ul, ol {
+	font-size: 1.38rem;
+	color: #666;
+	line-height: 1.6;
+}
+
+pre {
+	padding: 10px;
+	background: #eee;
+	border-radius: 2px;
+}

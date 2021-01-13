@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% capture page_title %}{% t page.title %}{% endcapture %}
+  {% capture site_title %}{% t global.site.title %}{% endcapture %}
+  {% if page_title != "" and site_title != "" %}
+  <title>{{ page_title }} | {{ site_title }}</title>
+  {% else %}
+  <title>{{ site_title }}</title>
+  {% endif %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#1ea362">
+  <meta name="theme-color" content="#1ea362">
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1 class="company-name">
+      <a href="{{ site.baseurl }}/">LiteQL</a>
+    </h1>
+    {% include navigation.html %}
+  </div>
+</header>
+{{ content }}
+
+<footer class="diagonal">
+  <div class="legal-line">
+    <p class="container copyright">
+      &copy;{{ site.time | date: '%Y' }} {% t global.company.name %}
+    </p>
+  </div>
+</footer>
+
+
+<script>
+  document.getElementById('open-nav').onclick = function() {
+    document.body.classList.toggle('nav-open')
+    return false
+  }
+</script>
+</body>
+</html>

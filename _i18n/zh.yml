@@ -1,0 +1,34 @@
+global:
+  languages:
+    chinese: 中文
+    english: 英文
+  site:
+    title: LiteQL
+  links:
+    portfolio: 作品
+    blog: 博客
+    about: 关于我们
+    contact: 联系我们
+  company:
+    name: 北京颉睿悦氪科技有限公司
+    short_name: CheeryWorks（颉睿悦氪）
+pages:
+  home:
+    title:
+    vision: 帮助个人或团队轻松构建精彩应用。
+    portfolios:
+      title: 作品概览
+      all: 浏览所有作品
+  portfolio:
+    title: 作品
+    heading: 我们的作品
+    subtitle: 以出色的成果遇见我们引以为傲的客户。
+  about:
+    title: 关于我们
+    heading: 我们的团队
+    subtitle: 认识我们高效专业的团队。
+  contact:
+    title: 联系我们
+    heading: 现在就联系我们
+    subtitle: 我们很乐意为您提供帮助。
+    email: 电子邮件
