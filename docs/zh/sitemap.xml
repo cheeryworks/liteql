@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://cheeryworks.org/soupe-ui-components/liteql/portfolios/soupe-ui-components/</loc>
-<lastmod>2021-01-13T09:38:54+00:00</lastmod>
+<loc>https://cheeryworks.org/liteql/liteql/about/</loc>
 </url>
 <url>
-<loc>https://cheeryworks.org/soupe-ui-components/liteql/about/</loc>
+<loc>https://cheeryworks.org/liteql/liteql/contact/</loc>
 </url>
 <url>
-<loc>https://cheeryworks.org/soupe-ui-components/liteql/contact/</loc>
+<loc>https://cheeryworks.org/liteql/liteql/blog/</loc>
 </url>
 <url>
-<loc>https://cheeryworks.org/soupe-ui-components/liteql/blog/</loc>
+<loc>https://cheeryworks.org/liteql/liteql/</loc>
 </url>
 <url>
-<loc>https://cheeryworks.org/soupe-ui-components/liteql/</loc>
-</url>
-<url>
-<loc>https://cheeryworks.org/soupe-ui-components/liteql/portfolio/</loc>
+<loc>https://cheeryworks.org/liteql/liteql/portfolio/</loc>
 </url>
 </urlset>

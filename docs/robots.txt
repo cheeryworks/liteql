@@ -1,1 +1,1 @@
-Sitemap: https://cheeryworks.org/soupe-ui-components/liteql/sitemap.xml
+Sitemap: https://cheeryworks.org/liteql/liteql/sitemap.xml

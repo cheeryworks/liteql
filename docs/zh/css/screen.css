@@ -248,14 +248,6 @@ footer .legal-line .copyright { font-size: 16px; }
 
 .footer-links li a:hover svg { fill: #fff; }
 
-.editor-link { display: none; margin-top: 0; }
-
-.editor-link .btn { background-color: #f7e064; color: #333; box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 2px; }
-
-.editor-link .btn:hover { background-color: #f4d525; text-decoration: none; color: #333; }
-
-.cms-editor-active .editor-link { display: block; }
-
 .highlight .hll { background-color: #ffffcc; }
 
 .highlight .c { color: #999988; font-style: italic; }
