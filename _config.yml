@@ -55,4 +55,4 @@ defaults:
       layout: "page"
 
 languages: [ "en", "zh" ]
-exclude_from_localizations: [ "images", "css", "_posts", "blog" ]
+exclude_from_localizations: [ "css" ]
